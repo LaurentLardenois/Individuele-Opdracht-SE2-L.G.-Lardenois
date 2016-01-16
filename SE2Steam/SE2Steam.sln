@@ -3,18 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SE2Steam", "SE2Steam\SE2Steam.csproj", "{87283A70-3AA9-42AF-B2F3-FFE8F9A5C332}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://localhost:6178", "{822FBFAC-CC22-474C-B195-5682EF194921}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6178"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Documents\Semester 2.2\SE2\Individuele opdracht\Individuele-Opdracht-SE2-L.G.-Lardenois\WebsiteSteam"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6178\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6178"
+		Release.AspNetCompiler.PhysicalPath = "D:\Documents\Semester 2.2\SE2\Individuele opdracht\Individuele-Opdracht-SE2-L.G.-Lardenois\WebsiteSteam"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6178\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\Documents\Semester 2.2\SE2\Individuele opdracht\Individuele-Opdracht-SE2-L.G.-Lardenois\WebsiteSteam"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87283A70-3AA9-42AF-B2F3-FFE8F9A5C332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87283A70-3AA9-42AF-B2F3-FFE8F9A5C332}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87283A70-3AA9-42AF-B2F3-FFE8F9A5C332}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87283A70-3AA9-42AF-B2F3-FFE8F9A5C332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822FBFAC-CC22-474C-B195-5682EF194921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822FBFAC-CC22-474C-B195-5682EF194921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822FBFAC-CC22-474C-B195-5682EF194921}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{822FBFAC-CC22-474C-B195-5682EF194921}.Debug|x64.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
